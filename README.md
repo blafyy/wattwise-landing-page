@@ -164,6 +164,5 @@ Este proyecto está bajo la Licencia MIT.
 <div align="center">
 
 
-⭐ Si te gusta este proyecto, ¡dale una estrella!
 
 </div>
