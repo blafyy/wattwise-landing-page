@@ -1,0 +1,14 @@
+{
+  "name": "wattwise-landing-page",
+  "version": "1.0.0",
+  "description": "Landing Page de EnergyAlert - WattWise | Curso SI385 IHC y Tecnologías Móviles - UPC",
+  "scripts": {
+    "start": "serve public",
+    "dev": "serve public --listen 3000"
+  },
+  "keywords": ["landing-page", "wattwise", "energyalert", "upc", "ihc"],
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}
