@@ -1,4 +1,4 @@
-# ⚡ WattWise · EnergyAlert — Landing Page
+#  WattWise · EnergyAlert — Landing Page
 
 <div align="center">
 
@@ -6,41 +6,38 @@
 
 Una plataforma de monitoreo de consumo eléctrico que ayuda a hogares y pequeños negocios peruanos a reducir su gasto energético desde su smartphone.
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github&logoColor=white)](https://pages.github.com/)
+
 
 </div>
 
 ---
 
-## 📋 Descripción
+##  Descripción
 
 **EnergyAlert** es la aplicación móvil de **WattWise**, diseñada para que cualquier persona pueda monitorear su consumo eléctrico en tiempo real, recibir alertas antes de exceder su presupuesto y acceder a consejos personalizados de ahorro expresados en soles peruanos.
 
 Esta landing page presenta el modelo de negocio de EnergyAlert a sus dos segmentos objetivo: hogares urbanos y dueños de pequeños negocios en Lima Metropolitana.
 
-### 🎯 Propósito
+###  Propósito
 
 Democratizar el acceso al monitoreo energético en Latinoamérica, haciendo que cualquier persona pueda ahorrar luz y dinero desde su smartphone.
 
 ---
 
-## ✨ Secciones de la Landing Page
+##  Secciones de la Landing Page
 
-- **🏠 Hero** — Propuesta de valor principal y llamada a la acción
-- **⚙️ Servicios** — Funcionalidades clave de EnergyAlert
-- **🔄 Cómo funciona** — Proceso paso a paso de uso de la app
-- **👥 Nosotros** — Quiénes somos y nuestra misión
-- **💳 Precios** — Planes Free y Pro con comparativa de características
-- **💬 Testimonios** — Experiencias de usuarios reales
-- **❓ FAQ** — Preguntas frecuentes
-- **📬 Contacto** — Formulario de contacto y redes sociales
+- ** Hero** — Propuesta de valor principal y llamada a la acción
+- ** Servicios** — Funcionalidades clave de EnergyAlert
+- ** Cómo funciona** — Proceso paso a paso de uso de la app
+- ** Nosotros** — Quiénes somos y nuestra misión
+- ** Precios** — Planes Free y Pro con comparativa de características
+- ** Testimonios** — Experiencias de usuarios reales
+- ** FAQ** — Preguntas frecuentes
+- ** Contacto** — Formulario de contacto y redes sociales
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - **HTML5** — Estructura semántica con atributos ARIA para accesibilidad (a11y)
 - **CSS3** — Variables de diseño, Flexbox, diseño responsivo Desktop/Mobile
@@ -50,7 +47,7 @@ Democratizar el acceso al monitoreo energético en Latinoamérica, haciendo que 
 
 ---
 
-## 🚀 Instalación y Uso
+##  Instalación y Uso
 
 ### Prerrequisitos
 
@@ -86,11 +83,11 @@ También puedes abrir `public/index.html` directamente en tu navegador sin neces
 
 ---
 
-## 🌐 Despliegue en GitHub Pages
+##  Despliegue en GitHub Pages
 
 El sitio está desplegado automáticamente en GitHub Pages desde la rama `main`:
 
-🔗 **URL del sitio:** `https://blafyy.github.io/wattwise-landing-page/public/index.html`
+ **URL del sitio:** `https://blafyy.github.io/wattwise-landing-page/public/index.html`
 
 ### Pasos para redesplegar
 
@@ -101,7 +98,7 @@ El sitio está desplegado automáticamente en GitHub Pages desde la rama `main`:
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 wattwise-landing-page/
@@ -123,7 +120,7 @@ wattwise-landing-page/
 
 ---
 
-## 🔀 Gestión de Ramas (GitFlow)
+##  Gestión de Ramas (GitFlow)
 
 | Rama | Propósito |
 |------|-----------|
@@ -144,7 +141,7 @@ docs(readme): update deployment instructions
 
 ---
 
-## 👥 Equipo WattWise
+##  Equipo WattWise
 
 Desarrollado como proyecto académico del curso **SI385 IHC y Tecnologías Móviles** — Universidad Peruana de Ciencias Aplicadas (UPC), Ciclo 2025-01.
 
@@ -158,7 +155,7 @@ Desarrollado como proyecto académico del curso **SI385 IHC y Tecnologías Móvi
 
 ---
 
-## 📝 Licencia
+##  Licencia
 
 Este proyecto está bajo la Licencia MIT.
 
@@ -166,7 +163,6 @@ Este proyecto está bajo la Licencia MIT.
 
 <div align="center">
 
-**Desarrollado con ❤️ por el equipo WattWise · UPC 2025**
 
 ⭐ Si te gusta este proyecto, ¡dale una estrella!
 
