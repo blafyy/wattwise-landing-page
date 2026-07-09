@@ -23,7 +23,7 @@ function doLogin() {
   if (!todoBien) return;
 
   // Login exitoso (demo): redirige al prototipo de Figma
-  window.location.href = "https://www.figma.com/proto/4crxyRC6vGCuCHgh7VKzxj/WATT-WISE-IHC?node-id=169-287&p=f&t=G7AxvX74qy3XBZAe-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=169%3A287&show-proto-sidebar=1";
+  window.location.href = "https://www.figma.com/design/xMdQYxEiNCWCcpWDtmtbx1/Untitled?node-id=0-1&p=f&t=x6ilCQ9g9J3Cu8lS-0";
 }
 
 function doRegister() {
@@ -71,7 +71,7 @@ function doRegister() {
 }
 
 // ===== LOGIN / REGISTRO CON GOOGLE O FACEBOOK =====
-// (Por ahora solo cierra el modal, ya que es una demo sin conexión real a esos servicios)
+// (Demo: simula el acceso exitoso y redirige al mismo prototipo de Figma)
 function socialLogin(proveedor) {
-  closeModal();
+  window.location.href = "https://www.figma.com/design/xMdQYxEiNCWCcpWDtmtbx1/Untitled?node-id=0-1&p=f&t=x6ilCQ9g9J3Cu8lS-0";
 }
