@@ -22,10 +22,9 @@ function doLogin() {
 
   if (!todoBien) return;
 
-  closeModal();
+  // Login exitoso (demo): redirige al prototipo de Figma
+  window.location.href = "https://www.figma.com/proto/4crxyRC6vGCuCHgh7VKzxj/WATT-WISE-IHC?node-id=169-287&p=f&t=G7AxvX74qy3XBZAe-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=169%3A287&show-proto-sidebar=1";
 }
-
-// ===== REGISTRO =====
 
 function doRegister() {
   const nombre = document.getElementById('rN').value.trim();
