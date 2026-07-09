@@ -4,6 +4,23 @@ window.addEventListener('scroll',()=>{
     window.scrollY>10?'0 2px 20px rgba(0,0,0,.1)':'';
 });
 
+// Mobile menu (hamburger)
+function toggleMenu(btn){
+  const nav = document.getElementById('navLinks');
+  const isOpen = nav.classList.toggle('open');
+  btn.setAttribute('aria-expanded', isOpen);
+}
+// Cerrar el menú al hacer clic en un link (mejor experiencia en móvil)
+document.addEventListener('DOMContentLoaded', ()=>{
+  document.querySelectorAll('#navLinks a').forEach(a=>{
+    a.addEventListener('click', ()=>{
+      document.getElementById('navLinks').classList.remove('open');
+      document.querySelector('.hamburger').setAttribute('aria-expanded','false');
+    });
+  });
+});
+
+
 // Hero bar
 window.addEventListener('load',()=>{
   setTimeout(()=>document.getElementById('heroBar').style.width='68%',500);

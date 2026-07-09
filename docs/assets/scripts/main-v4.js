@@ -29,6 +29,7 @@ function togglePlan(){annual=!annual;updatePrices();}
 function setPlan(t){annual=t==='annual';updatePrices();}
 function updatePrices(){
   document.getElementById('planToggle').classList.toggle('on',annual);
+  document.getElementById('planToggle').setAttribute('aria-checked', annual);
   document.getElementById('lbl-monthly').classList.toggle('active',!annual);
   document.getElementById('lbl-annual').classList.toggle('active',annual);
   document.querySelectorAll('.pval').forEach(el=>{
@@ -40,8 +41,14 @@ function updatePrices(){
 function toggleFaq(el){
   const item=el.parentElement;
   const was=item.classList.contains('open');
-  document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
-  if(!was)item.classList.add('open');
+  document.querySelectorAll('.faq-item').forEach(i=>{
+    i.classList.remove('open');
+    i.querySelector('.faq-q').setAttribute('aria-expanded','false');
+  });
+  if(!was){
+    item.classList.add('open');
+    el.setAttribute('aria-expanded','true');
+  }
 }
 
 // Modal
@@ -54,10 +61,16 @@ function closeModal(){
   document.getElementById('modalOverlay').classList.remove('open');
   document.body.style.overflow='';
 }
+document.addEventListener('keydown',(e)=>{
+  if(e.key==='Escape' && document.getElementById('modalOverlay').classList.contains('open')){
+    closeModal();
+  }
+});
 function switchTab(tab){
   ['Login','Register'].forEach(t=>{
     document.getElementById('p'+t).classList.toggle('active',t.toLowerCase()===tab);
     document.getElementById('t'+t).classList.toggle('active',t.toLowerCase()===tab);
+    document.getElementById('t'+t).setAttribute('aria-selected', t.toLowerCase()===tab);
   });
 }
 
